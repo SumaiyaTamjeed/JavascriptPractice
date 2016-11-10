@@ -68,3 +68,36 @@ var testArr = [1,2,3,4,5];
 console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6)); // Modify this line to test
 console.log("After: " + JSON.stringify(testArr));
+
+//if statment
+function ourTrueOrFalse(isItTrue) {
+  if (isItTrue) {
+    return "Yes, it's true";
+  }
+  return "No, it's false";
+}
+
+function trueOrFalse(wasThatTrue) {
+
+   if (wasThatTrue) {
+    return "Yes, that was true";
+  }
+  return "No, that was false";
+
+}
+
+// Change this value to test
+trueOrFalse(false);
+
+//
+
+function testStrict(val) {
+  if (val===7) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+// Change this value to test
+console.log(testStrict(10));
+console.log(testStrict(7));
+console.log(testStrict('7'));
